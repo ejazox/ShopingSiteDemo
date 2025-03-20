@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "@pages/*": ["pages/*"],
+      "@utils/*": ["utils/*"],
+      "@managers/*": ["managers/*"]
+    }
+  },
+  "include": [
+    "pages/**/*.ts",
+    "tests/**/*.ts",
+    "managers/**/*.ts",
+    "utils/**/*.ts"
+, "tests/saveAuth.js", "setup/authSetup.spec.ts"  ],
+  "exclude": ["node_modules"]
+}

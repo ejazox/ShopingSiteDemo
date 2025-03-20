@@ -1,0 +1,16 @@
+{
+  "name": "shopingsitedemo",
+  "version": "1.0.0",
+  "description": "Playwright automation framework with Page Object Model",
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.36.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.0",
+    "@types/node": "^16.0.0"
+  }
+}

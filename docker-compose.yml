@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  playwright:
+    image: playwright-tests
+    build: .
+    container_name: playwright-runner
+    working_dir: /app
+    command: ["npx", "playwright", "test"]
+    volumes:
+      - .:/app
+    environment:
+      - PLAYWRIGHT_BROWSERS_PATH=0
