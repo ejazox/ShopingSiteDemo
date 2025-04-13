@@ -7,10 +7,11 @@
     "test": "npx playwright test"
   },
   "dependencies": {
-    "@playwright/test": "^1.36.0"
+    "@playwright/test": "^1.36.0",
+    "dotenv": "^16.5.0"
   },
   "devDependencies": {
-    "typescript": "^4.5.0",
-    "@types/node": "^16.0.0"
+    "@types/node": "^16.0.0",
+    "typescript": "^4.5.0"
   }
 }

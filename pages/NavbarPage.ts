@@ -2,7 +2,7 @@ import { Locator, Page } from '@playwright/test';
 import { BasePage } from './BasePage';
 
 export class NavbarPage extends BasePage {
-  
+
   homeLink: Locator;
   contactLink: Locator;
   aboutUsLink: Locator;

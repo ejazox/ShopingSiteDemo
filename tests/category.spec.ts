@@ -1,5 +1,4 @@
-// src/tests/category.test.ts
-import { test, expect } from './BaseTest'; // Assuming you have a BaseTest file
+import { test, expect } from './BaseTest'; 
 import { PageManager } from '@managers/PageManager';
 
 test.describe('Category Tests', () => {
@@ -11,8 +10,8 @@ test.describe('Category Tests', () => {
     // Click on Phones category
     await categoryPage.clickPhonesCategory();
     const { productName, productPrice } = await categoryPage.getFirstProductDetails();
-    expect(productName).toBe('Samsung galaxy s6'); // Modify as needed
-    expect(productPrice).toBe('$360'); // Modify as needed
+    expect(productName).toBe('Samsung galaxy s6'); 
+    expect(productPrice).toBe('$360');
   });
 
   test('Verify Laptops category', async ({ categoryPage }) => {
